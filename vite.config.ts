@@ -5,7 +5,7 @@ import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/interactive-rating-component/',
+  // base: '/<REPO>/',
   plugins: [vue(), svgLoader()],
   resolve: {
     alias: {
