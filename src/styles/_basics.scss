@@ -1,6 +1,6 @@
 html,
 body {
-  @apply min-h-screen bg-very-dark-blue text-medium-grey;
+  @apply min-h-screen;
 }
 
 html {
@@ -16,25 +16,4 @@ html {
 a,
 span {
   @apply inline-block;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply text-pure-white font-bold;
-}
-
-h3 {
-  @apply sm:text-3xl text-2xl;
-}
-
-p {
-  @apply text-light-grey sm:text-md text-sm;
-}
-
-svg {
-  @apply block max-w-full h-auto;
 }
