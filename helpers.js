@@ -1,6 +1,6 @@
 const path = require('path');
 
-exports.rem = (px) => {
+exports.pxToRem = (px) => {
   const rootFontSize = 16;
   return `${px / rootFontSize}rem`;
 };
